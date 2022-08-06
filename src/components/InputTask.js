@@ -82,6 +82,7 @@ export default function InputTask(props) {
           value={task.categoryTask}
           onChange={onChangeCategoryTask}
         />
+        <p>Modificando nuestro proyecto</p>
         <Button type="submit" color="violet" onClick={onSubmitTask}>
           Añadir Tarea
         </Button>
